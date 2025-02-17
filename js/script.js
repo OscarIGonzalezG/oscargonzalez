@@ -1,4 +1,5 @@
-/*==================== cambiar a icono de barra de navegacion ====================*/
+/* cambiar a icono de barra de navegacion */
+
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
@@ -6,7 +7,10 @@ menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x')
     navbar.classList.toggle('active')
 }
-/*==================== remarcar menu al hacer scroll ====================*/
+
+
+/* remarcar menu al hacer scroll */
+
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
 
@@ -25,18 +29,21 @@ window.onscroll = () => {
         };
     });
 
-    /*==================== Barra de navegacion pegajosa ====================*/
-    let header = document.querySelector('header');
 
+    /* Barra de navegacion pegajosa */
+
+    let header = document.querySelector('header');
     header.classList.toggle('sticky', window.scrollY > 100);
 
-    /*==================== remover menu al hacer click en un link  ====================*/
+
+    /* remover menu al hacer click en un link */
 
     menuIcon.classList.remove('bx-x')
     navbar.classList.remove('active')
 };
 
-/*==================== Scroll reveal ====================*/
+
+/* Scroll reveal */
 
 ScrollReveal({
     // reset: true,
@@ -50,10 +57,10 @@ ScrollReveal().reveal('.home-img, .services-container, .portafolio-box, .contact
 ScrollReveal().reveal('.home-content h1, .about-img', {origin: 'left'});
 ScrollReveal().reveal('.home-content p, .about-content', {origin: 'right'});
 
-/*==================== Animacion Typed JS ====================*/
+/* Animacion Typed JS */
 
 const typed = new Typed('.multiple-texto', {
-    strings: ["Frontend Developer", 'Ingeniero en informatica', 'Diseñador Web'],
+    strings: ["Frontend Developer", 'Ingeniero en informatica', 'Web Development Trainee'],
     typeSpeed: 100,
     backSpeed: 100,
     BackDelay: 1000,
