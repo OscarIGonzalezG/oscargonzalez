@@ -208,14 +208,14 @@
 
         <form id="form">
             <div class="input-box">
-                <input type="text" placeholder="Nombre Completo" name="from_name" id="from_name">
-                <input type="email" placeholder="Correo Electronico" name="email_id" id="email_id">
+                <input type="text" placeholder="Nombre Completo" name="from_name" id="from_name" required>
+                <input type="email" placeholder="Correo Electronico" name="email_id" id="email_id" required>
             </div>
             <div class="input-box">
-                <input type="number" placeholder="Numero Telefonico" name="from_phone" id="from_phone">
-                <input type="text" placeholder="Asunto" name="subject" id="subject">
+                <input type="number" placeholder="Numero Telefonico" name="from_phone" id="from_phone" required>
+                <input type="text" placeholder="Asunto" name="subject" id="subject" required>
             </div>
-            <textarea name="message" id="message" cols="30" rows="10" placeholder="Tu Mensaje"></textarea>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Tu Mensaje" required></textarea>
             <input type="submit" id="button" value="Enviar Mensaje" class="btn">
         </form>
     </section>
@@ -245,5 +245,10 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   
     <script type="text/javascript">emailjs.init('5QOIyI1QaHqmeRg10')</script>
+
+    <!-- Alertas -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    
 </body>
 </html>

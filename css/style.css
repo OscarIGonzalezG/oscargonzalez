@@ -545,3 +545,7 @@ span {
         margin-top: 2rem;
     }
 }
+
+.swal-overlay {
+    background-color: var(--main-color);
+  }
