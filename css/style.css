@@ -264,7 +264,7 @@ span {
 .portafolio-container {
     display: grid;
     /* este grid template mientas lo ejo en 1 hasta que complete mas proyectos, tiene que esr 3, 1fr */
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2.5rem;
 }
