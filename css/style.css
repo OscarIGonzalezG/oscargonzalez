@@ -486,7 +486,7 @@ span {
 
     .logo img {
         width: 3rem;
-        
+        margin-top: 0;
     }
 
     .home-img img {
@@ -540,6 +540,11 @@ span {
 
     .about-img img {
         width: 90vw;
+    }
+
+    .logo img {
+        width: 3rem;
+        margin-top: 0;
     }
 
     .footer {
