@@ -60,9 +60,9 @@ ScrollReveal().reveal('.home-content p, .about-content', {origin: 'right'});
 /* Animacion Typed JS */
 
 const typed = new Typed('.multiple-texto', {
-    strings: ['De: soporte e Infraestructura TI', 'A: desarrollador Web Full-Stack'],
-    typeSpeed: 40,
-    backSpeed: 40,
-    BackDelay: 900,
+    strings: ['De: Soporte e Infraestructura TI', 'A: Desarrollador Web Full-Stack'],
+    typeSpeed: 35,
+    backSpeed: 35,
+    BackDelay: 800,
     loop: true
 });
