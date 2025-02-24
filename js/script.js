@@ -48,8 +48,8 @@ window.onscroll = () => {
 ScrollReveal({
     // reset: true,
     distance: '80px',
-    duration: 2000,
-    delay: 200
+    duration: 900,
+    delay: 90
 });
 
 ScrollReveal().reveal('.home-content, .heading', {origin: 'top'});
@@ -60,9 +60,9 @@ ScrollReveal().reveal('.home-content p, .about-content', {origin: 'right'});
 /* Animacion Typed JS */
 
 const typed = new Typed('.multiple-texto', {
-    strings: ["Frontend Developer", 'Ingeniero en informatica', 'Web Development Trainee'],
-    typeSpeed: 100,
-    backSpeed: 100,
-    BackDelay: 1000,
+    strings: ['De: soporte e Infraestructura TI', 'A: desarrollador Web Full-Stack'],
+    typeSpeed: 40,
+    backSpeed: 40,
+    BackDelay: 900,
     loop: true
 });
