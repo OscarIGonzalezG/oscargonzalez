@@ -17,7 +17,7 @@ Puedes visitar el portafolio en línea aquí:
 
 ## 🚧 Próximamente
 
-Este portafolio será reestructurado y migrado a **Angular**, con un diseño más avanzado, animaciones, modo oscuro y mayor interactividad.
+Este portafolio será reestructurado y migrado a **Next.js**, con un diseño más avanzado, animaciones, modo oscuro y mayor interactividad.
 
 ---
 
